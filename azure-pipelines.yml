@@ -1,0 +1,11 @@
+# clone azure repo
+git clone https://dev.azure.com/WCE-Pipeline/_git/CI-CD%20Pipeline
+cd RepoName
+
+#  second remote
+git remote add github https://github.com/tymi1991/WCE-Pipeline.git
+
+#fetching updates
+git fetch github
+
+git merge github/main
